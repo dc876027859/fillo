@@ -1,5 +1,7 @@
 # COMP 9517 20T2 Project
 
+## group QAQ
+
 # Table of contents
 1. [Introduction](#introduction)
 1. [Instalation](#installation)
@@ -58,18 +60,17 @@ The datasets contains three different datasets: *DIC-C2DH_HeLa*, *PhC-C2DL-PSC* 
           
 ```
 ## 4. instruction
+### Note: In the aspect of program integration, the modularization degree of this project is not high, so it is necessary to make correct call according for  needs.
 
 1. activate the anaconda *deepwater* environment.
 
 2. Make sure project.ipynb is in the folder of the dataset you want to run.
 Suppose we run on a second dataset *Fluo-N2DL-HeLa*.
-
 ```bash
 /PhC-C2DL-PSC/Sequence 1 /project.ipynb/
 ```
 
 3. Run the import part, preprocessing function, tracking function and function of Task 3.
-
 ```bash
 import part
 preprocessing function
