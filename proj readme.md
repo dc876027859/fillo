@@ -5,7 +5,7 @@
 # Table of contents
 1. [Introduction](#introduction)
 1. [Instalation](#installation)
-1. [Structure description](#Structure description)
+1. [Structure](#Structure)
 1. [instruction](#instruction)
 
 ## 1. Introduction
@@ -44,7 +44,7 @@ $pip install scikit_image
 
 The datasets contains three different datasets: *DIC-C2DH_HeLa*, *PhC-C2DL-PSC* and *Fluo-N2DL-HeLa*.
 
-# Structure of training data directory
+# Structure of project.ipynb
 
 ```bash
 --datasets
