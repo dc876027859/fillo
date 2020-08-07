@@ -49,8 +49,12 @@ The datasets contains three different datasets: *DIC-C2DH_HeLa*, *PhC-C2DL-PSC* 
 ```bash
 --datasets
      -- 'DATASET_NAME'                    # Name of dataset e.g. 'DIC-C2DH-HeLa'
-          -- Sequence 1                            # name of sequence 
-               -- project.ipynb           # Project code
+          -- Sequence 1                      # Name of sequence 
+               -- project.ipynb                   # Project code
+                    -- function part                   # Different functions e.g. Detection Function  
+                    -- execution part                  # Corresponding to different data sets and different tasks e.g. Task 3 printing part
+                    ...
+                    
                -- t000.tif
                -- t001.tif
                   ...
